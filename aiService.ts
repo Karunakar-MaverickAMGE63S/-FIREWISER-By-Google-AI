@@ -9,7 +9,7 @@ import type { WiseOutput, AirQualityData, WeatherData, Dot } from '../types';
 const AIR_QUALITY_API_KEY =AQ_PLACEHOLDER_KEY
 
 export const getAirQualityData = async (lat: number, lng: number): Promise<AirQualityData | null> => {
-  const url = `https://airquality.googleapis.com/v1/currentConditions:lookup?key=${AIR_QUALITY_API_KEY}`;
+  const url = {AIR_QUALITY_API_KEY}`;
   try {
     const response = await fetch(url, {
       method: 'POST',
