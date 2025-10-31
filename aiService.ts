@@ -6,10 +6,10 @@ import type { WiseOutput, AirQualityData, WeatherData, Dot } from '../types';
 // NOTE: In a real-world production app, exposing an API key on the client-side is a security risk.
 // This key is for the Google Air Quality API. It should be handled by a secure backend proxy.
 // For this self-contained demo, it's included here and should be restricted in the Google Cloud Console.
-const AIR_QUALITY_API_KEY =AQ_PLACEHOLDER_KEY
+const
 
 export const getAirQualityData = async (lat: number, lng: number): Promise<AirQualityData | null> => {
-  const url = {AIR_QUALITY_API_KEY}`;
+  const url = `;
   try {
     const response = await fetch(url, {
       method: 'POST',
