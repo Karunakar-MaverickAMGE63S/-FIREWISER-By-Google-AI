@@ -6,7 +6,7 @@
 
 This contains everything you need to run your app locally.
 
-https://firewiser-by-google-ai-416455034441.us-west1.run.app
+https://firewiser-416455034441.us-west1.run.app
 
 ## Run Locally
 
