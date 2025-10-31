@@ -6,7 +6,7 @@
 
 This contains everything you need to run your app locally.
 
-View your app in AI Studio: https://ai.studio/apps/drive/1CVmUtNsU8UKnReMhOxKE3EU4ZsySpwoO
+https://firewiser-by-google-ai-416455034441.us-west1.run.app
 
 ## Run Locally
 
